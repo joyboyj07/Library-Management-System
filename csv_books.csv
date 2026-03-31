@@ -1,0 +1,21 @@
+BOOK_ID,BOOK_NAME,AUTHOR_NAME,BOOK_PRICE,QTY
+B001,Python Programming,Guido van Rossum,500,10
+B002,Data Structures,Mark Allen Weiss,450,8
+B003,Artificial Intelligence,Stuart Russell,600,5
+B004,Database Management,Ramez Elmasri,550,7
+B005,Computer Networks,Andrew Tanenbaum,480,6
+B006,Operating Systems,Abraham Silberschatz,520,8
+B007,Machine Learning,Tom Mitchell,650,4
+B008,Web Development,Jon Duckett,400,10
+B009,Java Programming,James Gosling,470,9
+B010,C++ Programming,Bjarne Stroustrup,490,7
+B011,Cyber Security,William Stallings,580,5
+B012,Cloud Computing,Thomas Erl,540,6
+B013,Software Engineering,Ian Sommerville,510,8
+B014,Computer Architecture,David Patterson,560,5
+B015,Discrete Mathematics,Kenneth Rosen,430,9
+B016,Digital Electronics,Morris Mano,420,10
+B017,Data Science,Joel Grus,620,4
+B018,Blockchain Technology,Imran Bashir,570,5
+B019,Internet of Things,Adrian McEwen,530,6
+B020,Deep Learning,Ian Goodfellow,680,3
