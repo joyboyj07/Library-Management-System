@@ -15,10 +15,15 @@ An optional notification system can be configured for real-time updates using ex
 🗄️ MySQL Database Integration
 🔔 Optional Notification System Support
 🛠️ Tech Stack
-Programming Language: Python
-GUI Framework: Tkinter / Custom GUI Components
-Database: MySQL
-Architecture: Client-Server Model
+
+### Programming Language: 
+Python
+### GUI Framework: 
+Tkinter / Custom GUI Components
+### Database: 
+MySQL
+### Architecture: 
+Client-Server Model
 
 ### 📁 Project Structure
 ```
@@ -37,8 +42,10 @@ Library-Management-System/
 ### 1️⃣ Clone the Repository
 git clone https://github.com/your-username/library-management-system.git
 cd library-management-system
+
 ### 2️⃣ Install Dependencies
 pip install -r requirements.txt
+
 ### 3️⃣ Configure Database
 Ensure MySQL server is running
 Execute the SQL script:
@@ -48,11 +55,11 @@ This will automatically create required tables and structure.
 
 ### 4️⃣ Configure Credentials
 
-Edit the file:
+### Edit the file:
 
 tele_creds.txt
 
-Add:
+### Add:
 
 MySQL username and password
 Notification API token (if using messaging integration)
