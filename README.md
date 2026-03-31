@@ -1,35 +1,105 @@
-# Library-Management-System(GUI)
-A Client-Server Architecture Based Library Management System with a decent looking GUI!  
-***PS: It was my class 12th Computer Science Project!!***
+### 📌 Overview
 
+The Library Management System (LMS) is a Python-based application developed using a Client-Server architecture with a graphical user interface.
 
-# Installation
-1. Generate a telegram-bot using BotFather(https://telegram.me/BotFather).
-2. Run `pip install -r requirements.txt` 
-3. Run `source config.sql` in your mysql command-line client terminal to setup all tables automatically.
-4. Enter your mysql credentials and telegram bot api-token in `tele_creds.txt`
-5. Put `tele_creds.txt` and `tele_server.py` to your either your startup folder or on some server class machine to keep the file running.
-6. Finally, Run `python3 main.py` 
+The system is designed to efficiently manage library operations such as book records, issuing, returning, and tracking user activities. It integrates with a MySQL database to ensure reliable data storage and retrieval.
 
-# Default GUI credentials
-Username: `root`  
-Password: `toor`
+An optional notification system can be configured for real-time updates using external messaging services.
 
-# Some Screenshots:-
-## Home screen - 
-![Home Screen](https://github.com/mymadhavyadav07/Library-Management-System/blob/main/images/home_screen.png)  
+### ✨ Features
+🔐 User Authentication System
+📚 Add and Manage Books
+🔄 Issue and Return Books
+📋 Track Book Availability
+🖥️ User-Friendly GUI Interface
+🗄️ MySQL Database Integration
+🔔 Optional Notification System Support
+🛠️ Tech Stack
+Programming Language: Python
+GUI Framework: Tkinter / Custom GUI Components
+Database: MySQL
+Architecture: Client-Server Model
 
-## Add Books - 
-![Add Books](https://github.com/mymadhavyadav07/Library-Management-System/blob/main/images/add_books.png)  
+### 📁 Project Structure
+```
+Library-Management-System/
+│
+├── main.py              # Main application entry point
+├── tele_server.py       # Notification server module
+├── tele_creds.txt       # Credentials configuration file
+├── config.sql           # Database setup script
+├── requirements.txt     # Dependencies
+│
+├── images/              # GUI screenshots/assets
+└── modules/             # Functional modules (if applicable)
+```
+### ⚙️ Installation & Setup
+### 1️⃣ Clone the Repository
+git clone https://github.com/your-username/library-management-system.git
+cd library-management-system
+### 2️⃣ Install Dependencies
+pip install -r requirements.txt
+### 3️⃣ Configure Database
+Ensure MySQL server is running
+Execute the SQL script:
+source config.sql
 
-## Return Books - 
-![Return Books](https://github.com/mymadhavyadav07/Library-Management-System/blob/main/images/return_books.png)  
+This will automatically create required tables and structure.
 
+### 4️⃣ Configure Credentials
 
+Edit the file:
 
-# Lastly...
-### Star this repo please ⭐(stop ignoring this message)
+tele_creds.txt
 
-Made with lots of ❤ and dedication by **Madhav Yadav**!!
+Add:
 
-![Madhav Yadav](https://avatars.githubusercontent.com/u/66372332?v=4)
+MySQL username and password
+Notification API token (if using messaging integration)
+
+### 5️⃣ Start Notification Server (Optional)
+python tele_server.py
+
+(Can be deployed on a background system or startup service)
+
+### 6️⃣ Run the Application
+python main.py
+
+### 🔑 Default Login Credentials
+Username: root
+Password: toor
+
+(Can be changed in the database or configuration files)
+
+### 🖼️ Screenshots
+🏠 Home Screen
+<img src="images/home_screen.png" width="450"/>
+➕ Add Books
+<img src="images/add_books.png" width="450"/>
+🔄 Return Books
+<img src="images/return_books.png" width="450"/>
+
+### 🧠 Core Concepts Used
+Client-Server Architecture
+Object-Oriented Programming (OOP)
+Database Management with MySQL
+GUI Development in Python
+Modular Code Design
+
+### 📊 Functional Modules
+Book Management
+Add, update, and remove books
+Issue System
+Issue books to users
+Return System
+Manage returned books
+User Authentication
+Secure login system
+Notification System (Optional)
+Sends updates via external messaging services
+🚀 Future Enhancements
+🌐 Web-based version using Flask/Django
+📱 Mobile application support
+📊 Analytics dashboard for library usage
+🔒 Advanced authentication system
+☁️ Cloud deployment support
